@@ -10,3 +10,4 @@ description = "Renders the Clean My Shit app icon (PNG + ICO) from an SVG."
 [dependencies]
 resvg = "0.44"
 ico = "0.3"
+image = { version = "0.25", default-features = false, features = ["png"] }
